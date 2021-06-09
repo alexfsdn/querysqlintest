@@ -2,7 +2,6 @@ package com.testplusquerysql.querysqlintest;
 
 import com.testplusquerysql.querysqlintest.model.Product;
 import com.testplusquerysql.querysqlintest.repository.ProductRepository;
-import javassist.bytecode.stackmap.TypeData;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,8 +9,6 @@ import org.springframework.test.context.jdbc.Sql;
 
 
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 @SpringBootTest
 public class ProductTest {
